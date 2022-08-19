@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        LOGO
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou João Pedro (Neto)</h2>
+        <span class="home-position">Programador Front-end</span>
+        <span class="home-resume">
+          <p>Natural de Barreira, nasci em 30/10/2005, filho de Maria Marcleide e irmão de Isabelle Lima,
+          Atualmente estou Cursando 3° ano no curso Técnico em Informatica,em Redenção-CE.</p>
+          Já fiz alguns cursos,porém,no momento que eu iria realizar as respectivas instalações,elas não davam certo (React, Bootstrap)
+          já fiz curso de Javascript,css/flex-box,html,no momento estou estudando Angular,e sempre estudo para o Enem,
+          gosto de fazer landing pages,e redação.
+          <p>Pretendo realizar uma graduação na área de programação, especificamente em Análise e desenvolvimento de Sistemas.
+          Estou disposto a desempenhar as funções que me forem atribuídas,com dedicação,entusiasmo,e interesse para atender as expectativas do meu empregador,contribuindo assim para o meu crescimento profissional/escolar e do desenvolvimento da empresa.</p>
+
+        </span>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./imagem/1660825029620.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imagem/1660828783956.jpg" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>Landing Page</h2>
+              <p>Criação de uma landing page do canal vida full stack.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imagem/IMG_20220818_103001.png" alt="Foto de uma loja online">
+            </div>
+            <div class="project-info">
+              <h2>Mais uma Landing page</h2>
+              <p>Landing page simples da coca cola.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./imagem/Captura de Tela (7).png" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Projeto Angular em Andamento</h2>
+              <p>Criação de um projeto com Angular do canal Matheus Battisti.</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    copyright © 2022 Neto - João Pedro. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
